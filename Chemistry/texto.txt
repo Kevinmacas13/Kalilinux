@@ -1,0 +1,16 @@
+  434  cd Downloads
+  436  cat document
+  437  cat document.pdf
+  438  cat bspwmShortcuts.txt
+  440  cd ..
+  442  cd Desktop/Maquinas/Machines
+  444  cd VPN
+  448  cat Downloads/bspwmShortcuts.txt
+  450* sudo openvpn lab_kevinmacas\(TCP\).ovpn
+  453  ping 10.10.11.38
+  455  cd ../Chemistry
+  457  nmap -sV  10.10.11.38  -oN escaneo_Chemistry
+  458  ls
+  459  cat escaneo_Chemistry
+  460  man
+  461  history

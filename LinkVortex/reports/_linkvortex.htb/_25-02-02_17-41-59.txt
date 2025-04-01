@@ -1,0 +1,6 @@
+# Dirsearch started Sun Feb  2 17:42:59 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u linkvortex.htb -t 50 -i 200
+
+200    15KB  http://linkvortex.htb/favicon.ico
+200     1KB  http://linkvortex.htb/LICENSE
+200   103B   http://linkvortex.htb/robots.txt
+200   255B   http://linkvortex.htb/sitemap.xml

